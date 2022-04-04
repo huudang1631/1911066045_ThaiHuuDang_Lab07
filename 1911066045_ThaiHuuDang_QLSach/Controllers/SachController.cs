@@ -11,6 +11,7 @@ namespace _1911066045_ThaiHuuDang_QLSach.Controllers
     public class SachController : ApiController
     {
         Sach[] sachs = new Sach[]
+
         {
             new Sach { Id = 1, Title = "Tôi thấy hoa vàng trên cỏ xanh", AuthorName =
             "Nguyễn Nhật Ánh", Price = 1, Content="Truyện kể về Tuổi thơ..." },
